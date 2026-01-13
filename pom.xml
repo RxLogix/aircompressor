@@ -11,7 +11,7 @@
 
     <groupId>io.airlift</groupId>
     <artifactId>aircompressor</artifactId>
-    <version>0.27</version>
+    <version>0.27.rx.1</version>
     <packaging>jar</packaging>
 
     <name>aircompressor</name>
@@ -38,15 +38,10 @@
 
     <distributionManagement>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>RXLOGIX-thirdparty</id>
+            <name>RXLogix Thirdparty Repository</name>
+            <url>http://10.100.21.16:8080/repository/common-component-snapshots/</url>
         </repository>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <properties>
